@@ -1,0 +1,12 @@
+{
+  "author": "Christopher Thorn <chris@koding.com> (http://koding.com)",
+  "private": true,
+  "name": "sinkrow",
+  "description": "some async helpers",
+  "version": "0.1.0",
+  "dependencies": {
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {},
+  "main": "lib/index.js"
+}
