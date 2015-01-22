@@ -5,8 +5,11 @@
   "description": "some async helpers",
   "version": "0.1.0",
   "dependencies": {
-    "underscore": "^1.7.0"
+    "lodash": "^2.4.1"
   },
   "devDependencies": {},
-  "main": "lib/index.js"
+  "main": "lib/index.js",
+  "browser": {
+    "underscore": "lodash/dist/lodash.underscore.js"
+  }
 }
