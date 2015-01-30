@@ -1,8 +1,8 @@
-this.sequence = require('./sequence');
+exports.race = require('./lib/race');
 
-this.race = require('./race');
+exports.sequence = require('./lib/sequence');
 
-this.daisy = function(args) {
+exports.daisy = function(args) {
   process.nextTick(args.next = function() {
     var fn;
     if (fn = args.shift()) {
@@ -14,7 +14,7 @@ this.daisy = function(args) {
   return args.next;
 };
 
-this.dash = function(args, cb) {
+exports.dash = function(args, cb) {
   var arg, count, length, _i, _len, _ref;
   if ('function' === typeof args) {
     _ref = [args, cb], cb = _ref[0], args = _ref[1];
