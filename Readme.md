@@ -2,10 +2,6 @@
 
 async helpers.
 
-# todo
+# License
 
-- use [inherits-underscore](https://github.com/tetsuo/inherits-underscore)
-
-# license
-
-2015 Koding, Inc
+2016 Koding, Inc. (Apache-2.0)
